@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leon Deyoung Darko">
+    <meta name="description" content="An informational webpage for a Chop Time mobile application created by JAMBO.">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chop Time</title>
+
+    <!--Embeded Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Montserrat:wght@800&family=Share+Tech&display=swap"
+        rel="stylesheet">
+
+    <!-- Font-awesome and Google Icons -->
+    <script src="https://kit.fontawesome.com/dcd356c426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- External Css  -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <div class="topnav" id="myNavbar">
+        <a href="javascript:void(0)" class="" onclick="openNav()"><i class="fa fa-bars w3-large w3-text-black"></i></a>
+        <a class="logo-img-container" href="#" style="padding:0;">
+            <img src="images/choptime-logo.png" alt="Chop Time Logo">
+        </a>
+        <a class="logo-text w3-text-black w3-medium" href="#home" style="padding:0;">JAMBO</a>
+        <div class="items-right w3-hide-small">
+            <a href="#home" class="w3-hide-medium active">CHOP
+                <i class="fas fa-drumstick-bite w3-medium"></i> TIME</a>
+            <a href="#" class="w3-hide-medium">JAMBO
+                <i class="fas fa-car w3-text-black w3-medium"></i> RIDER</a>
+            <a href="#" class="w3-hide-medium"> SAFARI</a>
+            <a href="#" style="padding:0;">
+                <button class="zoom w3-black w3-card w3-button w3-round-xxlarge w3-hover-light-green">
+                    <i class="fab fa-android w3-medium"></i> &nbsp; Get Chop Time
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- Top Navigation -->
+
+    <!-- Left Sidebar for smaller screens -->
+    <div id="mySidenav" class="sidenav w3-animate-left w3-card" onclick="closeNav()">
+        <div class="w3-right-align close"><i class="fas fa-times-circle w3-text=grey"></i></div>
+        <div class="w3-padding-4">
+            <h3 class="w3-wide w3-margin-0"> JAMBO</h3>
+            <span>CHOP<i class="fas fa-drumstick-bite"></i> <span class="w3-text-light-green">TIME</span></span>
+        </div>
+        <hr>
+        <div><span>BOOKMARKS &nbsp;<i class="fas fa-caret-down"></i></span></div>
+        <a href="#home"><i class="fas fa-home w3-tiny "></i> HOME</a>
+        <a href="#services"><i class="fas fa-store w3-tiny "></i> SERVICES</a>
+        <a href="#about"><i class="fas fa-info-circle w3-tiny "></i> ABOUT</a>
+        <a href="#business"><i class="fas fa-user-tie w3-tiny "></i> BUSINESS</a>
+        <a href="#contact"><i class="fas fa-at w3-tiny "></i> CONTACT </a>
+        <hr>
+        <div><span>OTHER JAMBO APPS &nbsp;<i class="fas fa-caret-down"></i></span></div>
+        <a href="#services">
+            JAMBO <i class="fas fa-car w3-text-black w3-medium"></i> RIDER</a>
+        </a>
+        <a href="#about">
+            SAFARI
+        </a>
+        <hr>
+        <div><span>DOWNLOAD CHOP<i class="fas fa-drumstick-bite"></i> TIME</span></div>
+        <div class="w3-margin-top">
+            <button class="zoom w3-light-grey w3-button w3-round-xxlarge w3-hover-light-grey w3-padding-4">
+                <i class="fab fa-apple w3-text-black"></i>&nbsp; Apple
+            </button>
+            <button class="zoom w3-light-grey w3-button w3-round-xxlarge w3-hover-light-grey w3-padding-4">
+                <i class="fab fa-android w3-text-black"></i>&nbsp; Android
+            </button>
+        </div>
+    </div>
+    <!-- Left Sidebar for smaller screens -->
+
+    <!-- Banner -->
+    <div id="home"></div>
+    <div class="choptime-banner" style="background: url(https://cdn.dribbble.com/users/1012997/screenshots/14073001/media/4994fedc83e967607f1e3b3e17525831.png) 
+        fixed no-repeat center; background-size: cover;">
+        <div class="banner-container">
+            <div class="w3-row">
+                <div class="w3-col l8">
+                    <div class="banner-title-elements">
+                        <h6 class="w3-hide-small">CHOP<i class="fas fa-drumstick-bite w3-medium"></i> TIME</h6>
+                        <h1 class="w3-text-black banner-title">Want to be sorted quickly with meals? Download Chop Time.
+                        </h1>
+                        <button class="zoom w3-black w3-button w3-card w3-round-xxlarge w3-hover-black w3-margin">
+                            <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                        </button>
+                        <button class="zoom w3-black w3-button w3-card w3-round-xxlarge w3-hover-black w3-margin">
+                            <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                        </button>
+                    </div>
+                </div>
+                <div class="w3-col l4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+
+    <div id="services"></div>
+    <!-- Services Section -->
+    <div class="services-container" style="background: url(images/food-ramen.png) no-repeat right top; ">
+        <div class="w3-row">
+            <div class="w3-col l4 m4 w3-padding-medium">
+                <div class="w3-round-xlarge w3-card w3-light-blue service-card zoom">
+                    <i class="fas fa-business-time w3-text-black w3-xxxlarge"></i>
+                    <h4 class="w3-text-black">Manage on Chop Time</h4>
+                    <p>Sell your meals on the Chop Time app. It's free to be listed on the platform.</p>
+                    <button class="zoom w3-green w3-button w3-round-xxlarge w3-hover-black">
+                        <i class="fas fa-user-tie w3-medium w3-text-light-blue"></i> Manager &nbsp;<i
+                            class="fas fa-angle-right w3-text-light-blue"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="w3-col l4 m4 w3-padding-medium">
+                <div class="w3-round-xlarge w3-card w3-light-blue service-card middle-card zoom">
+                    <i class="fas fa-mobile w3-xxxlarge w3-text-black"></i>
+                    <h4 class="w3-text-black">Favorite Meals Delivered</h4>
+                    <p>Have your favorite meals from restaurants around you,
+                        delivered to you anywhere you are.</p>
+                    <button class="zoom w3-green w3-button w3-round-xxlarge w3-hover-black">
+                        <i class="fab fa-apple w3-medium w3-text-light-blue"></i> Try the app
+                    </button>
+                </div>
+            </div>
+            <div class="w3-col l4 m4 w3-padding-medium">
+                <div class="w3-round-xlarge w3-card w3-light-blue service-card zoom ">
+                    <i class="fas fa-car w3-xxxlarge w3-text-black"></i>
+                    <h4 class="w3-text-black">Earn By Riding</h4>
+                    <p>Make some good money by delivering orders from users.</p>
+                    <button class="zoom w3-green w3-button w3-round-xxlarge w3-hover-black">
+                        <i class="fas fa-motorcycle w3-medium w3-text-light-blue"></i> Delivery &nbsp; <i
+                            class="fas fa-angle-right w3-text-light-blue"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Services Section -->
+    <div id="about"></div>
+    <!-- About Section -->
+    <div class="container" style="background: url(images/food-friedrice.png) no-repeat left top; ">
+        <div class="w3-center">
+            <i class="fas fa-info w3-text-deep-orange w3-large"></i>
+            <h6 class="w3-text-deep-orange w3-wide">ABOUT CHOP <i class="fas fa-drumstick-bite"></i> TIME</h6>
+            <h3 class="w3-text-black w3-padding-4">A Platform For Managers To Sell and Deliver Foods & For Users To Buy
+                Services.
+            </h3>
+        </div>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-store w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Restaurant</h3>
+                    <h6>Choose Favorite Restaurant</h6>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-utensils w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Menus</h3>
+                    <h6>Browse foods on a restaurant's Menu</h6>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-mobile-alt w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Communication</h3>
+                    <h6>Chat with or Call Managers</6>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-heart w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Wishlist</h3>
+                    <h6>Add favorite foods to wishlist</h6>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-plus w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Add Extras</h3>
+                    <h6>Select extras to add on your meal.</6>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-car w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Delivery</h3>
+                    <h6>Know if a meal is deliverable or not.</h6>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-walking w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Pickup</h3>
+                    <h6>Pickup your food from the restaurants if you want.</h6>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-padding-medium">
+                <div class="w3-center">
+                    <i class="fas fa-thumbtack w3-xxxlarge w3-text-black"></i>
+                    <h3 class="w3-text-deep-orange">Orders</h3>
+                    <h6>Keep track on orders made.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="w3-center w3-padding-4 w3-hide-small">
+            <a href="#business" title="To Business Section">
+                <i class="fas fa-chevron-down arrow-down w3-card w3-large w3-text-deep-orange"></i>
+            </a>
+        </div>
+    </div>
+    <div style="background: url(images/blur-restaurant.jpg) no-repeat center; background-size: cover;">
+        <div class="w3-deep-orange background-opacity container">
+            <div class="w3-row w3-padding-24">
+                <div class="w3-col l5 m6 w3-padding-large">
+                    <h1 class="banner-title">Choose From A Large Variety Of Restaurants</h1>
+                    <button class="zoom w3-white w3-button w3-card w3-round-xxlarge w3-hover-light-grey w3-margin">
+                        <i class="fab fa-apple w3-large w3-text-black"></i> Get on App Store
+                    </button>
+                    <button class="zoom w3-white w3-button w3-card w3-round-xxlarge w3-hover-light-grey w3-margin">
+                        <i class="fab fa-google-play w3-medium w3-text-black"></i> Google Play
+                    </button>
+                </div>
+                <div class="w3-col l7 m6">
+                    <img class="w3-card w3-image w3-round" src="images/blur-restaurant.jpg" alt="blur restaurant image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="business"></div>
+    <div style="background: url(images/restaurant-manager.jpg) no-repeat center; background-size: cover;">
+        <div class="w3-light-grey background-opacity container">
+            <div class="w3-row w3-padding-24">
+                <div class="w3-col l7 m6">
+                    <img class="w3-card w3-image w3-round" src="images/restaurant-manager.jpg" alt="restaurant-manager">
+                </div>
+                <div class="w3-col l5 m6 w3-padding-large w3-right">
+                    <h1 class="banner-title">Becoming A Manager</h1>
+                    <p>Chop Time provide a platform for all restaurants to market their products.
+                        Just download the app "Chop Time (Manager)". Register and you are on your way to a big market
+                    </p>
+                    <p>It is free to list on the plateform. We only charge service fees if we have to process payments
+                        for
+                        you.</p>
+                    <p>Reach out to us on +233(0)246308052 via WhatsApp.</p>
+                    <button class="zoom w3-black w3-button w3-card w3-round-xxlarge w3-hover-black w3-margin">
+                        <i class="fas fa-user-tie w3-medium w3-text-white"></i> Manager
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ride"></div>
+    <div style="background: url(images/rider.jpg) no-repeat center; background-size: cover;">
+        <div class="w3-green background-opacity container">
+            <div class="w3-row w3-padding-24">
+                <div class="w3-col l5 m6 w3-padding-large">
+                    <h1 class="banner-title">Earn By Delivering</h1>
+                    <p>You'll need a motorcycle with the appropriate compartments or a car.</p>
+                    <p>
+                        Aside that, sign up through the app Chop Time (Delivery) and update your profile. Once this is
+                        done,
+                        contact us via WhatsApp and we will take it from there.
+                    </p>
+                    <button class="zoom w3-white w3-button w3-card w3-round-xxlarge w3-hover-white w3-margin">
+                        <i class="fas fa-car w3-medium w3-text-black-"></i> Delivery
+                    </button>
+                </div>
+                <div class="w3-col l7 m6">
+                    <img class="w3-card w3-image w3-round" src="images/rider.jpg" alt="blur restaurant image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="contact"></div>
+    <!-- Footer  -->
+    <div class="container w3-black footer"
+        style="background: url(images/food-curry-small.png) no-repeat right top fixed;">
+        <div class="w3-row">
+            <div class="w3-col l6 m6 w3-margin-bottom w3-padding-medium">
+                <img src="images/choptime-logo.png" alt="Logo" style="width: 50px;">
+                <h3>JAMBO</h3>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom">
+                <h6>Get In Touch</h6>
+                <a href="mailto:choptime@fxjambo.com">
+                    <button class="zoom w3-green w3-button w3-round-xxlarge w3-hover-green">
+                        <i class="fas fa-at w3-medium w3-text-white"></i> Mail us
+                    </button>
+                </a>
+                <p>Or reach out to us on +233(0)246308052 via WhatsApp.</p>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom">
+                <h6>Business</h6>
+                <a href="#business"><p><i class="far fa-eye w3-medium w3-text-white"></i> Becoming a manager</p></a>
+                <a href="#ride"><p><i class="far fa-eye w3-medium w3-text-white"></i> Earn by Delivering</p></a>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom">
+                <h6>Get CHOP <i class="fas fa-drumstick-bite"></i> <span class="w3-text-light-green">TIME</span></h6>
+                <div class="w3-margin-bottom">
+                    <a href="#">
+                        <button class="zoom w3-white w3-button w3-round-xxlarge w3-hover-white">
+                            <i class="fab fa-apple w3-large w3-text-black"></i> Get on App Store
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <button class="zoom w3-white w3-button w3-round-xxlarge w3-hover-white">
+                            <i class="fab fa-google-play w3-medium w3-text-black"></i> Google Play
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-padding-16 w3-hide-medium w3-hide-large">
+            <span>&copy 2020 JAMBO</span>
+        </div>
+
+    </div>
+    <div class="footernavbar w3-black">
+        <span class="w3-hide-small">&copy 2020 JAMBO</span>
+        <a class="w3-hide-medium w3-hide-large arrow-up" href="#home">
+            <i class="fas fa-arrow-up w3-hover-text-green"></i></a>
+        <a class="w3-hover-text-indigo footericon zoom" href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="w3-hover-text-brown footericon zoom" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <!-- Footer  -->
+    <script src="js/myTopNav.js"></script>
+    <script src="js/sideNav.js"></script>
+</body>
+</html>

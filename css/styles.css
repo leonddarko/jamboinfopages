@@ -1,0 +1,283 @@
+/***Smooth Scroll ***/
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+/***Custom Scroll Bar***/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: lightgrey;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F7FCFF;
+  }
+
+  
+
+/*** Zoom on Hover ***/
+.zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.09); /* IE 9 */
+    -webkit-transform: scale(1.09); /* Safari 3-8 */
+    transform: scale(1.09);
+  }
+
+/*** Fonts ***/
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Share Tech', sans-serif;
+font-family: 'Anton', sans-serif;*/
+/*** Fonts ***/
+
+  /*** Top Navigtion ***/
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 10px 3%;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .logo-img-container{
+      padding: 0px;
+  }
+
+  .logo-img-container img{
+    width: 50px;
+    padding: 10.5px 0;
+}
+
+
+  .logo-text{
+      margin: 21px 10px;
+      font-size: 50px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .topnav button {
+    margin: 12.5px 0;
+  }
+  
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 21px 26px;
+    text-decoration: none;
+  }
+
+  .active{
+    font-weight: 900;
+    color: #D64E2A;
+  }
+
+  .items-right{
+    float: right;
+  }
+  
+  .topnav a:hover {
+    color: #D64E2A;
+    transition: 0.4s;
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .topnav {
+      background-color:#F7FCFF;
+      padding: 5px 3%;
+    }
+
+    .topnav a {
+      padding: 21px 13px;
+    }
+
+    .logo-img-container img{
+        width: 30px;
+        padding: 19px 0;
+    }
+    
+  }
+
+
+
+  /* Left Sidebar for smaller screens */
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left:0;
+  background-color:#F7FCFF;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding: 30px 20px 0;
+}
+
+.close{
+  cursor: pointer;
+}
+
+.sidenav span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #222222;
+}
+
+
+.sidenav a {
+  font-weight: bold;
+  padding: 5px 0;
+  text-decoration: none;
+  font-size: 14px;
+  color: #2C5C14;
+  display: block;
+  transition: 0.2s;
+
+}
+
+.sidenav a:hover {
+  color: #222222;
+}
+
+
+@media screen and (max-height: 450px) {
+  /* .sidenav {padding-top: 15px;} */
+  .sidenav a {font-size: 12px;}
+}
+
+/* Left Sidebar for smaller screens */
+
+
+
+
+/* Banner  */
+  .choptime-banner{
+    height: 650px;
+  }
+
+  .banner-container{
+    padding: 14.3% 4%;
+  }
+
+  .banner-title-elements{
+    position: relative;
+  }
+
+  .banner-title{
+    font-size: 50px;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .choptime-banner{
+      height: 400px;
+    }
+
+    .banner-title{
+      margin-top: 50px;
+      font-size: 25px;
+    }
+  }
+
+ 
+
+/* Services */
+.services-container{
+  padding: 6% 3% 11%;
+}
+
+.service-card{
+  padding: 20px 15px;
+}
+
+.middle-card{
+  position: relative;
+  top: -120px;
+}
+
+@media screen and (max-width: 600px) {
+  .middle-card{
+    top: 0px;
+  }
+}
+
+.arrow-down{
+  padding: 8px;
+  border-radius: 100%;
+}
+
+
+/* Container */
+.container{
+    padding: 11% 5%;
+}
+
+.background-opacity{
+  opacity: 0.82;
+}
+
+/* Footer */
+@media screen and (max-width: 600px) {
+  .footer{
+    text-align: center;
+  }
+}
+
+
+.footernavbar {
+  overflow: hidden;
+  background-color: white;
+  /* position: fixed; */
+  z-index: 2;
+  /* bottom: 0; */
+  width: 100%;
+  padding: 1% 5%;
+}
+
+.footernavbar a {
+  float: right;
+  color:#2C5C14;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.footernavbar span{
+  float: left;
+  color: grey;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footernavbar .arrow-up{
+  float: left;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+.footernavbar a:hover {
+  transition: 0.4s;
+}
