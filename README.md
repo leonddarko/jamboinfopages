@@ -1,2 +1,2 @@
 # jambo-choptime
-An informational webpage for a Chop Time mobile application created by JAMBO.
+An informational website for Jambo mobile applications such as J-Dash, TheHub, Jambo Driver and Chop time.
