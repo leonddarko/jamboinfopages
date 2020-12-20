@@ -1,0 +1,296 @@
+/***Smooth Scroll ***/
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+/***Custom Scroll Bar***/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: lightgrey;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F7FCFF;
+  }
+
+  
+
+/*** Zoom on Hover ***/
+.zoom {
+    transition: 0.3s;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.09); /* IE 9 */
+    -webkit-transform: scale(1.09); /* Safari 3-8 */
+    transform: scale(1.09);
+  }
+
+
+  
+  /*** Top Navigtion ***/
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 6px 3%;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .logo-img-container{
+      padding: 0px;
+  }
+
+  .logo-img-container img{
+    width: 50px;
+    padding: 10.5px 0;
+}
+
+
+  .logo-text{
+      margin: 21px 10px;
+      font-size: 50px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .topnav button {
+    margin: 12.5px 0;
+  }
+
+  .active{
+    color:#15bcd4;
+  }
+
+  
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 21px 26px;
+    text-decoration: none;
+    color: #222222;
+  }
+
+  
+  .items-right{
+    float: right;
+  }
+  
+  .topnav a:hover {
+    color: grey;
+    transition: 0.5s;
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .topnav {
+      background-color:#f7fcff9d;
+      padding: 5px 3%;
+    }
+
+    .topnav a {
+      padding: 21px 13px;
+    }
+
+    .logo-img-container img{
+        width: 30px;
+        padding: 19px 0;
+    }
+    
+  }
+
+ /* Left Sidebar for smaller screens */
+ .sidenav {
+    display: none;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left:0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 10px 20px 0;
+  }
+  
+  .close{
+    cursor: pointer;
+  }
+  
+  .sidenav span {
+    font-size: 10px;
+    font-weight: bold;
+    color:grey;
+  }
+  
+  
+  .sidenav a {
+    font-weight: bold;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: #222222;
+    display: block;
+    transition: 0.2s;
+  
+  }
+  
+  .sidenav a:hover {
+    color: #4384ec;
+  }
+  
+  .applinks a{
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-height: 450px) {
+    /* .sidenav {padding-top: 15px;} */
+    .sidenav a {font-size: 12px;}
+  }
+  
+  /* Left Sidebar for smaller screens */
+
+
+
+
+  /* Split Screen */
+.background-image{
+    background-image: url("../images/jd-bg-image-01.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-opacity{
+    opacity: 0.9;
+}
+
+.split-screen-container{
+    padding: 5.6% 3%;
+    background-color: #fafafa;
+}
+
+.split-screen-card a{
+    text-decoration: none;
+}
+
+.split-screen-card{
+    margin-top: 50px;
+    padding: 20px;
+}
+  /* Split Screen */
+
+
+  .divider-container{
+      background-color: #fafafa;
+  }
+  .divider1{
+    height: 10px;
+    width: 5px;
+    background-color: #15bcd4;
+    display: inline-block;
+    border-radius: 20%;
+  }
+  
+  .divider2{
+    height: 10px;
+    width: 10px;
+    background-color: #222222;
+    display: inline-block;
+    border-radius: 20%;
+  }
+  
+  .divider3{
+    height: 10px;
+    width: 5px;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 20%;
+  }
+
+  .divider4{
+    height: 5px;
+    width: 5px;
+    background-color: #222222;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+
+  .container{
+    padding: 8% 3%;
+  }
+  
+
+  /* Footer */
+.footer{
+    background-color: white;
+  }
+  
+  .footer a{
+    text-decoration: none;
+  }
+  
+  .footer a:hover{
+    color:#16bcd4;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer{
+      text-align: center;
+    }
+  }
+  
+  
+  .footernavbar {
+    overflow: hidden;
+    background-color: #fafafa;
+    z-index: 2;
+    width: 100%;
+    padding: 1% 5%;
+  }
+  
+  .footernavbar a {
+    float: right;
+    color:#16bcd4;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+  }
+  
+  .footernavbar span{
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .footernavbar .arrow-up{
+    float: left;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+  }
+  
+  .footernavbar a:hover {
+    transition: 0.4s;
+  }
+  
