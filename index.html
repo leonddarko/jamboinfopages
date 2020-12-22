@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leon Deyoung Darko">
+    <meta name="description"
+        content="An informational webpage for J-Dash & Jambo(TheHub) mobile applications created by JAMBO.">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Dash • Jambo (TheHub)</title>
+
+    <!--Embeded Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Montserrat:wght@800&family=Share+Tech&display=swap"
+        rel="stylesheet">
+
+    <!-- Font-awesome and Google Icons -->
+    <script src="https://kit.fontawesome.com/dcd356c426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- External Css  -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/jdashstyles.css">
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <div class="topnav" id="myNavbar">
+        <a href="javascript:void(0)" onclick="openNav()"><i class="fa fa-bars w3-medium w3-text-black"></i></a>
+        <a class="logo-img-container" href="#" style="padding:0;">
+            <img src="images/jambo-logo.png" alt="Chop Time Logo">
+        </a>
+        <a class="logo-text w3-text-black w3-medium" href="#home" style="padding:0;">JAMBO</a>
+        <div class="items-right w3-hide-small">
+            <a href="#home" class="w3-hide-medium ">
+                <span class="active"><i class="fas fa-caret-right w3-medium w3-animate-left"></i> Jambo (TheHub) •
+                    J-Dash</span>
+            </a>
+            <a href="jambodriver.html" class="w3-hide-medium">Jambo
+                <i class="fas fa-car w3-medium"></i> Driver
+            </a>
+            <a href="choptime.html" class="w3-hide-medium">Chop
+                <i class="fas fa-drumstick-bite w3-medium"></i> Time
+            </a>
+            <!-- <a href="#" style="padding:0;">
+                <button class="w3-black w3-card w3-button w3-round-xxlarge w3-hover-indigo zoom">
+                    <i class="fab fa-android w3-medium"></i> &nbsp; Get J-Dash
+                </button>
+            </a> -->
+        </div>
+    </div>
+    <!-- Top Navigation -->
+    <!-- Left Sidebar for smaller screens -->
+    <div id="mySidenav" class="sidenav w3-animate-left w3-card" onclick="closeNav()">
+        <div class="w3-right-align close"><i class="fas fa-times w3-text-grey"></i></div>
+        <div class="w3-padding-4">
+            <h3 class="w3-wide w3-margin-0 w3-text-black"> JAMBO</h3>
+            <div><span>DOWNLOAD &nbsp;JAMBO (THEHUB) </span></div>
+        </div>
+
+        <div class="applinks">
+            <a href="https://apps.apple.com/us/app/jambo-thehub/id1530037833">
+                <button class="zoom w3-light-grey w3-button w3-round-xxlarge w3-hover-light-grey w3-padding-4">
+                    <i class="fab fa-apple w3-text-black"></i>&nbsp; Apple
+                </button>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.thespuka.jamborider">
+                <button class="zoom w3-light-grey w3-button w3-round-xxlarge w3-hover-light-grey w3-padding-4">
+                    <i class="fab fa-android w3-text-black"></i>&nbsp; Android
+                </button>
+            </a>
+        </div>
+        <br>
+        <div><span>PAGE BOOKMARKS</span></div>
+        <a href="#home"><i class="fas fa-home w3-tiny "></i> HOME</a>
+        <a href="#services"><i class="fas fa-user-tie w3-tiny "></i> SERVICES</a>
+        <a href="#requests"><i class="fas fa-user w3-tiny "></i> JAMBO (THEHUB)</a>
+        <a href="#thehub"><i class="fas fa-info w3-tiny "></i> ABOUT JAMBO (THEHUB)</a>
+        <a href="#service-providers"><i class="fas fa-user w3-tiny "></i> SERVICE PROVIDERS</a>
+        <a href="#jdash"><i class="fas fa-truck w3-tiny "></i> J-DASH</a>
+        <a href="#about"><i class="fas fa-info w3-tiny "></i> ABOUT J-DASH</a>
+        <a href="#contact"><i class="fas fa-at w3-tiny "></i> CONTACT </a>
+        <hr>
+        <div><span>OTHER JAMBO APPS</span></div>
+        <a href="jambodriver.html">
+            JAMBO <i class="fas fa-car w3-medium"></i> DRIVER</a>
+        </a>
+        <a href="choptime.html">
+            CHOP <i class="fas fa-drumstick-bite w3-medium"></i> TIME
+        </a>
+        <br>
+        <span>DOWNLOAD &nbsp; J-DASH</span>
+        <div class="applinks">
+            <a href="https://apps.apple.com/us/app/j-dash/id1542817103">
+                <button class="zoom w3-light-grey w3-button w3-round-xxlarge w3-hover-light-grey w3-padding-4">
+                    <i class="fab fa-apple w3-text-black"></i>&nbsp; Apple
+                </button>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.thespuka.jdashdriver">
+                <button class="zoom w3-light-grey w3-button w3-round-xxlarge w3-hover-light-grey w3-padding-4">
+                    <i class="fab fa-android w3-text-black"></i>&nbsp; Android
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- Left Sidebar for smaller screens -->
+
+    <!-- Banner -->
+    <div id="home"></div>
+    <div class="banner">
+        <div class="banner-container">
+
+            <div class="banner-card banner-card-background-image-02 w3-card w3-round-xxlarge right-margin">
+                <h6 class="w3-margin-0 w3-text-indigo w3-wide">Jambo (TheHub)</h6>
+                <h1 class="banner-card-title w3-margin-0">Request For Rides or Request For Package Deliveries.
+                </h1>
+                <p class=" banner-card-subtitle">Our mission is to make your movement much easier and simplify your
+                    life.
+                </p>
+                <a href="https://apps.apple.com/us/app/jambo-thehub/id1530037833">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white w3-margin">
+                        <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                    </button>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.thespuka.jamborider">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white w3-margin">
+                        <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                    </button>
+                </a>
+            </div>
+
+            <div class="banner-card banner-card-background-image-01 w3-card w3-round-xxlarge right-margin">
+                <h6 class="w3-margin-0 w3-text-indigo w3-wide">J-Dash</h6>
+                <h1 class="banner-card-title w3-margin-0">Join our pool of contractors and make money at will.
+                </h1>
+                <p class=" banner-card-subtitle">We provide a convenient platform for drivers with bikes or cars to
+                    deliver and
+                    earn.</p>
+                <a href="https://apps.apple.com/us/app/j-dash/id1542817103">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white w3-margin">
+                        <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                    </button>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.thespuka.jdashdriver">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white  w3-margin">
+                        <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- Banner -->
+    <!-- Services Section -->
+    <div id="services"></div>
+    <div class="container">
+        <div class="w3-center">
+            <div class="divider1"></div>
+            <div class="divider2"></div>
+            <div class="divider3"></div>
+            <h1 class="w3-text-black">Services</h1>
+            <p class="w3-text-black">The Services Provided To Customers</hp>
+        </div>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col l4 m6 w3-padding-medium w3-center">
+                <i class="fas fa-taxi w3-xxlarge w3-text-black"></i>
+                <h5 class="w3-text-black">Ride Requests</h5>
+                <p>Order Ride Request with <br> Jambo (TheHub) app.</p>
+                <span class="w3-text-grey">
+                    <a class="page-link" href="#requests">learn more <i class="fas fa-arrow-right w3-tiny"></i></a>
+                </span>
+                <hr class="w3-hide-large w3-hide-medium">
+            </div>
+            <div class="w3-col l4 m6 w3-padding-medium w3-center">
+                <i class="fas fa-truck-loading w3-xxlarge w3-text-black"></i>
+                <h5 class="w3-text-black">Delivery Services</h5>
+                <p>Order A Package Or Parcel Delivery with <br> Jambo (TheHub) app.</p>
+                <span class="w3-text-grey">
+                    <a class="page-link" href="#request-delivery">learn more <i
+                            class="fas fa-arrow-right w3-tiny"></i></a>
+                </span>
+                <hr class="w3-hide-large w3-hide-medium">
+            </div>
+            <div class="w3-col l4 m12 w3-padding-medium w3-center">
+                <i class="fa fa-utensils w3-xxlarge w3-text-black"></i>
+                <h5 class="w3-text-black">Choptime</h5>
+                <p>Order Food Delivery with <br> The Choptime app.</p>
+                <span class="w3-text-grey">
+                    <a class="page-link" href="choptime.html">learn more <i class="fas fa-arrow-right w3-tiny"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div id="requests"></div>
+    <!-- Jambo (TheHub) -->
+    <div class="container w3-border-top w3-border-light-grey">
+        <div class="w3-center">
+            <div>
+                <div class="divider1"></div>
+                <div class="divider2"></div>
+                <div class="divider3"></div>
+                <h1 class="w3-padding-16">Jambo (TheHub).</h1>
+            </div>
+            <div class="w3-padding-16">
+                <i class="fas fa-info w3-large w3-text-cyan"></i>
+                <br>
+                <span class="mini-heading">Request A Ride</span>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Rides</h6>
+                <i class="fas fa-map-marked-alt w3-large w3-text-black"></i>
+                <h4>Find Rides On The Map</h4>
+                <p>Tap the car to see driver and car rating</p>
+            </div>
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Request</h6>
+                <i class="far fa-thumbs-up w3-large w3-text-black"></i>
+                <h4>Only make a request if you are okay with the prices.</h4>
+                <p>Settle on reasonable prices, before requesting.</p>
+            </div>
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">The Details</h6>
+                <i class="fas fa-file-invoice w3-large w3-text-black"></i>
+                <h4>Get all the relevant info.</h4>
+                <p>All the information relating to the ride the car and the driver.</p>
+            </div>
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Profile & Ratings</h6>
+                <i class="fas fa-id-badge w3-large w3-text-black"></i>
+                <h4>Rate your experiences</h4>
+                <p>Lets us know how you feel about your experiences using the app.</p>
+            </div>
+        </div>
+        <hr>
+        <div id="request-delivery"></div>
+        <div class="w3-center">
+            <div class="w3-padding-16">
+                <i class="fas fa-info w3-large w3-text-cyan"></i>
+                <br>
+                <span class="mini-heading">Request A Delivery</span>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Send Packages</h6>
+                <i class="fas fa-box w3-large w3-text-black"></i>
+                <h4>A Document Or Parcel</h4>
+                <p>Select a package type to deliver</p>
+            </div>
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Choose Vehicle Type</h6>
+                <i class="fas fa-shipping-fast w3-large w3-text-black"></i>
+                <h4>Select a vehicle type</h4>
+                <p>Could be a motorcycle, a car, van or a truck.</p>
+            </div>
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Pickup & Delivery Points</h6>
+                <i class="fas fa-route w3-large w3-text-black"></i>
+                <h4>Register Your Pickup Point & Delivery Destination.</h4>
+                <p>Indicate where you want the package to be picked up from, and where it should be delivered.</p>
+            </div>
+            <div class="w3-col l3 m3 w3-padding-medium w3-padding-16">
+                <i class="fas fa-caret-down w3-large w3-text-cyan"></i>
+                <h6 class="w3-text-grey">Payments</h6>
+                <i class="fas fa-money-check w3-large w3-text-black"></i>
+                <h4>Select A Method of Payment</h4>
+                <p>Make payments using a means comfortable to you.</p>
+            </div>
+        </div>
+    </div>
+    <div id="thehub"></div>
+    <!-- Jambo (TheHub) -->
+    <div class="w3-center">
+        <div class="divider1"></div>
+        <div class="divider2"></div>
+        <div class="divider3"></div>
+    </div>
+    <!-- More on Jambo (TheHub) -->
+    <div class="container">
+        <div class="w3-row">
+            <div class="w3-col l6 m6 w3-center">
+                <img class="w3-image" src="images/ride-image-large.png" alt="parcel image">
+            </div>
+            <div class="w3-col l6 m6 w3-padding-medium applinks">
+                <span class="mini-heading">Info</span>
+                <h2 class="w3-margin-0">More On Jambo (TheHub).</h2>
+                <p>Our mission is to make your movement much easier. With our app, you can either request a ride to the
+                    general pool of ride providers around you or YOU CAN PICK A RIDE ON THE MAP. Yes, you can make that
+                    direct request.</p>
+                <p>ABOVE ALL, WE DO NOT CHARGE ANY FEE! YES! So your fares will be reasonably affordable.</p>
+                <p>We've added delivery service to the platform, more ways to simplify your life.</p>
+
+                <a href="https://apps.apple.com/us/app/jambo-thehub/id1530037833">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white w3-margin">
+                        <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                    </button>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.thespuka.jamborider">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white w3-margin">
+                        <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </div><!-- More on Jambo (TheHub) -->
+    <!-- Service Providers Section -->
+    <div id="service-providers"></div>
+    <div class="container">
+        <div class="w3-center">
+            <div class="divider1"></div>
+            <div class="divider2"></div>
+            <div class="divider3"></div>
+            <h1 class="w3-text-black">Service Providers</h1>
+            <p class="w3-text-black">The Service Providers</p>
+        </div>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col l4 m6 w3-padding-medium w3-center">
+                <i class="fas fa-car-side w3-xxlarge w3-text-black"></i>
+                <h5 class="w3-text-black">Jambo Driver</h5>
+                <p>Offer Ride Services with <br> the Jambo Driver app </p>
+                <span class="w3-text-grey">
+                    <a class="page-link" href="jambodriver.html">learn more <i
+                            class="fas fa-arrow-right w3-tiny"></i></a>
+                </span>
+                <hr class="w3-hide-large w3-hide-medium">
+            </div>
+            <div class="w3-col l4 m6 w3-padding-medium w3-center">
+                <i class="fas fa-shipping-fast w3-xxlarge w3-text-black"></i>
+                <h5 class="w3-text-black">J-Dash</h5>
+                <p>Offer Package & Parcel Delivery Services with <br> the J-Dash app</p>
+                <span class="w3-text-grey">
+                    <a class="page-link" href="#jdash">learn more <i class="fas fa-arrow-right w3-tiny"></i></a>
+                </span>
+                <hr class="w3-hide-large w3-hide-medium">
+            </div>
+            <div class="w3-col l4 m12 w3-padding-medium w3-center">
+                <i class="fas fa-truck w3-xxlarge w3-text-black"></i>
+                <h5 class="w3-text-black">Choptime Delivery</h5>
+                <p>Offer Food Delivery Services with <br> the Choptime Delivery app</p>
+                <span class="w3-text-grey">
+                    <a class="page-link" href="choptime.html">learn more <i class="fas fa-arrow-right w3-tiny"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Service Providers Section -->
+    <div id="jdash"></div>
+    <!-- J-Dash Section -->
+    <div class="jdash-container">
+        <div class="w3-center">
+            <div>
+                <div class="divider1"></div>
+                <div class="divider2"></div>
+                <div class="divider3"></div>
+            </div>
+            <div class="w3-padding-16">
+                <span class="mini-heading">(Package Delivery Driver)</span>
+                <h2 class="w3-margin-0">J-Dash</h2>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col l2 m6 w3-padding-medium w3-center">
+                <div class="jdash-card jdash-card-background-image01 zoom">
+                </div>
+                <h5>Join The Platform</h5>
+                <p>Sign up with you mobile number</p>
+            </div>
+            <div class="w3-col l2 m6 w3-padding-medium w3-center">
+                <div class="jdash-card jdash-card-background-image02 zoom">
+                </div>
+                <h5>New Orders</h5>
+                <p>Browse through new orders and accept</p>
+            </div>
+            <div class="w3-col l2 m6 w3-padding-medium w3-center">
+                <div class="jdash-card jdash-card-background-image03 zoom">
+                </div>
+                <h5>Accepted Orders</h5>
+                <p>Browse through accepted orders and navigate to deliver</p>
+            </div>
+            <div class="w3-col l2 m6 w3-padding-medium w3-center">
+                <div class="jdash-card jdash-card-background-image04 zoom">
+                </div>
+                <h5>Navigation</h5>
+                <p>Navigate using google maps to deliver packages</p>
+            </div>
+            <div class="w3-col l2 m6 w3-padding-medium w3-center">
+                <div class="jdash-card jdash-card-background-image05 zoom">
+                </div>
+                <h5>Call</h5>
+                <p>Contact the receiver through phone call.</p>
+            </div>
+            <div class="w3-col l2 m6 w3-padding-medium w3-center">
+                <div class="jdash-card jdash-card-background-image06 zoom">
+                </div>
+                <h5>Earnings</h5>
+                <p>Track your earnings.</p>
+            </div>
+        </div>
+    </div><!-- J-Dash Section -->
+    <div id="about"></div>
+    <div class="w3-center">
+        <div class="divider1"></div>
+        <div class="divider2"></div>
+        <div class="divider3"></div>
+    </div>
+    <!-- More on J-Dash -->
+    <div class="container">
+        <div class="w3-row">
+            <div class="w3-col l6 m6 w3-padding-medium applinks">
+                <span class="mini-heading">Info</span>
+                <h2 class="w3-margin-0">More On J-Dash.</h2>
+                <p>J-Dash is a package and parcel delivery app operated by FX Spuka & The Safari Group LLC in Ghana.
+                    We are providing a convenient platform for drivers with bikes or cars to deliver and earn more than
+                    90% of the delivery fee we charge our clients.</p>
+                <a href="https://apps.apple.com/us/app/j-dash/id1542817103">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white w3-margin">
+                        <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                    </button>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.thespuka.jdashdriver">
+                    <button class="zoom w3-button w3-round-xxlarge w3-black w3-hover-white  w3-margin">
+                        <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                    </button>
+                </a>
+            </div>
+            <div class="w3-col l6 m6 w3-center">
+                <img class="w3-image" src="images/parcel-image-01.png" alt="parcel image">
+            </div>
+        </div>
+    </div><!-- More on J-Dash -->
+    <hr>
+    <!-- Who we are -->
+    <div class="container">
+        <div class="w3-center">
+            <div>
+                <div class="divider1"></div>
+                <div class="divider2"></div>
+                <div class="divider3"></div>
+            </div>
+            <div class="w3-padding-16">
+                <h2 class="w3-margin-0">Who We Are (Jambo)</h2>
+                <span class="mini-heading">Simple Ideas, Simplifying Lives</span><br><br>
+                <a href="downloads/Who We Are-Jambo.pdf" download>
+                    <button class="zoom w3-button w3-round-xxlarge w3-cyan w3-hover-black w3-margin">
+                        <i class="fas fa-long-arrow-alt-down w3-medium"></i>&nbsp; Download PDF &nbsp;<i
+                            class="fas fa-file-pdf w3-medium"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Who we are -->
+    <div id="contact"></div>
+    <!-- Footer  -->
+    <div class="container footer">
+        <div class="w3-row">
+            <div class="w3-col l2 m6 w3-margin-bottom w3-padding-medium">
+                <img src="images/jambo-logo.png" alt="Logo" style="width: 50px;">
+                <h3>JAMBO</h3>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom w3-padding-medium">
+                <h6>Get In Touch</h6>
+                <a href="mailto:thetaxihub@thespuka.com">
+                    <button class="zoom w3-cyan w3-button w3-round-xxlarge w3-hover-light-grey">
+                        <i class="fas fa-at w3-medium"></i> Mail us
+                    </button>
+                </a>
+                <p>Or reach out to us on +233(0)246308052 via <i class="fab fa-whatsapp w3-small"></i> WhatsApp.</p>
+                <hr>
+                <h6><i class="fas fa-map-marked-alt w3-small"></i> Location</h6>
+
+                <p>Dekev avenue, directly opposite Getaid pharmacy.</p>
+                <p>Accra, Ghana.</p>
+                <a href="https://goo.gl/maps/u2zzKFemu3E3as9q9">
+                    <button class="zoom w3-black w3-button w3-round-xxlarge w3-hover-light-grey">
+                        <i class="far fa-map w3-medium"></i> Google Maps
+                    </button>
+                </a>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom w3-padding-medium">
+                <h6>Business</h6>
+                <a href="#services">
+                    <p><i class="fas fa-user-tie w3-tiny"></i> Services</p>
+                </a>
+                <a href="#service-providers">
+                    <p><i class="fas fa-user w3-tiny"></i> Service Providers</p>
+                </a>
+                <a href="#jdash">
+                    <p><i class="fas fa-truck w3-tiny"></i> Delivery Driver</p>
+                </a>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom w3-padding-medium">
+                <h6>Other Jambo Services</h6>
+                <a href="jambodriver.html">
+                    <p><i class="fas fa-angle-right w3-tiny"></i> JAMBO DRIVER
+                </a></p></a>
+                <a href="choptime.html">
+                    <p><i class="fas fa-angle-right w3-tiny"></i> CHOPTIME
+                </a></p></a>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom w3-padding-medium">
+                <h6>Get J-Dash</h6>
+                <div class="w3-margin-bottom">
+                    <a href="https://apps.apple.com/us/app/j-dash/id1542817103">
+                        <button class="zoom w3-card w3-black w3-button w3-round-xxlarge w3-hover-white">
+                            <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.thespuka.jdashdriver">
+                        <button class="zoom w3-card w3-black w3-button w3-round-xxlarge w3-hover-white">
+                            <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="w3-col l2 m6 w3-margin-bottom w3-padding-medium">
+                <h6>Get TheHub</h6>
+                <div class="w3-margin-bottom">
+                    <a href="https://apps.apple.com/us/app/jambo-thehub/id1530037833">
+                        <button class="zoom w3-card w3-black w3-button w3-round-xxlarge w3-hover-white">
+                            <i class="fab fa-apple w3-large w3-text-grey"></i> Get on App Store
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.thespuka.jamborider">
+                        <button class="zoom w3-card w3-black w3-button w3-round-xxlarge w3-hover-white">
+                            <i class="fab fa-google-play w3-medium w3-text-grey"></i> Google Play
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-padding-16 w3-hide-medium w3-hide-large">
+            <span>&copy 2020 JAMBO</span>
+        </div>
+
+    </div>
+    <div class="footernavbar">
+        <span class="w3-hide-small">&copy 2020 JAMBO</span>
+        <a class="w3-hide-medium w3-hide-large arrow-up" href="#home">
+            <i class="fas fa-arrow-up w3-hover-text-green"></i></a>
+        <a class="w3-hover-text-indigo footericon zoom" href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="w3-hover-text-brown footericon zoom" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <!-- Footer  -->
+
+    <script src="js/myTopNav.js"></script>
+    <script src="js/sideNav.js"></script>
+</body>
+
+</html>
